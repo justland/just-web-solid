@@ -1,0 +1,55 @@
+{
+  "name": "@just-web/solid-headlessui",
+  "version": "0.0.0",
+  "description": "Headless components for SolidJS.",
+  "keywords": [
+    "solid",
+    "solidjs",
+    "ui",
+    "components"
+  ],
+  "homepage": "https://github.com/justland/just-web-solid/tree/main/components/headlessui",
+  "bugs": {
+    "url": "https://github.com/justland/just-web-solid/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justland/just-web-solid.git",
+    "directory": "components/headlessui"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Homa Wong (unional)",
+    "email": "homawong@gmail.com",
+    "url": "https://github.com/unional"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    "import": "./esm/solid-headlessui.js"
+  },
+  "types": "./dts/index.d.ts",
+  "files": [
+    "dts",
+    "esm",
+    "ts",
+    "!**/*.spec.*",
+    "!**/*.unit.*"
+  ],
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "build:dts": "tsc -p tsconfig.dts.json",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
+    "vite-plugin-solid": "^2.4.0",
+    "solid-js": "^1.6.2"
+  },
+  "peerDependencies": {
+    "solid-js": ">= 1.5"
+  }
+}

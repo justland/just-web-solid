@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dts",
+    "emitDeclarationOnly": true,
+    "outDir": "dts",
+    "sourceMap": true,
+    "inlineSources": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "rootDir": "ts",
+    "strict": true,
+    "target": "ESNext"
+  },
+  "references": [],
+  "include": [
+    "ts",
+    "typings"
+  ],
+  "exclude": [
+    "**/*.spec.*",
+    "**/*.stories.*",
+    "**/*.unit.*"
+  ]
+}
