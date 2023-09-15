@@ -32,7 +32,7 @@
     "husky": "^8.0.1",
     "pinst": "^3.0.0",
     "plop": "^4.0.0",
-    "turbo": "1.10.13",
+    "turbo": "1.10.14",
     "typedoc": "^0.25.0",
     "typedoc-plugin-extras": "^3.0.0",
     "typedoc-plugin-resolve-crossmodule-references": "^0.3.0",
