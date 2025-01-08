@@ -36,8 +36,8 @@ importers:
         specifier: ^0.27.0
         version: 0.27.0(typescript@5.0.2)
       typedoc-plugin-extras:
-        specifier: ^3.0.0
-        version: 3.0.0(typedoc@0.27.0(typescript@5.0.2))
+        specifier: ^4.0.0
+        version: 4.0.0(typedoc@0.27.0(typescript@5.0.2))
       typedoc-plugin-resolve-crossmodule-references:
         specifier: ^0.3.0
         version: 0.3.2(typedoc@0.27.0(typescript@5.0.2))
@@ -4018,10 +4018,10 @@ packages:
   typedarray-to-buffer@3.1.5:
     resolution: {integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==}
 
-  typedoc-plugin-extras@3.0.0:
-    resolution: {integrity: sha512-eiAe3qtm2WbV5owdncpt0zHZPqsNZH2mzNGILPd4zqrvEZie3Et9es4cpGZ+8lHO/SI0pVKwsAj7IuMxPNOdYg==}
+  typedoc-plugin-extras@4.0.0:
+    resolution: {integrity: sha512-wqImx4K39u9+M4mkRvBxds8BMzlxKXrhHwtOAGvgtQza+E9+h9YmYJIJsnFyF06XRmv/02tQIBan76A3GdpZFg==}
     peerDependencies:
-      typedoc: 0.25.x
+      typedoc: 0.27.x
 
   typedoc-plugin-resolve-crossmodule-references@0.3.2:
     resolution: {integrity: sha512-28NJzaA+OxEkHLyaOnTAOW6GC6A30f00LSgFZ7x+haFb2Lhlpno4Aiocbf5RRUQ1uht/O4c47KbYm837HsO/nw==}
@@ -9080,7 +9080,7 @@ snapshots:
     dependencies:
       is-typedarray: 1.0.0
 
-  typedoc-plugin-extras@3.0.0(typedoc@0.27.0(typescript@5.0.2)):
+  typedoc-plugin-extras@4.0.0(typedoc@0.27.0(typescript@5.0.2)):
     dependencies:
       typedoc: 0.27.0(typescript@5.0.2)
 
