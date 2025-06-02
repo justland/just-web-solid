@@ -38,5 +38,5 @@
     "typedoc-plugin-resolve-crossmodule-references": "^0.3.0",
     "typescript": "^5.0.0"
   },
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.1"
 }
