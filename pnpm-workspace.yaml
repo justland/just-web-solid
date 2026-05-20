@@ -6,3 +6,4 @@ packages:
   - tools/*
 allowBuilds:
   esbuild: true
+  fsevents: true
