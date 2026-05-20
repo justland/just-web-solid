@@ -4,3 +4,5 @@ packages:
   - plugins/*
   - presets/*
   - tools/*
+allowBuilds:
+  esbuild: true
