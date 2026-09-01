@@ -15,7 +15,7 @@ export default defineConfig({
     minify: false,
     lib: {
       entry: resolvePath('ts/index.tsx'),
-      fileName: 'just-headlessui',
+      fileName: 'solid-headlessui',
       formats: ['es']
     },
     target: 'esnext',

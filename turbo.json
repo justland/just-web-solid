@@ -6,7 +6,8 @@
         "^build"
       ],
       "outputs": [
-        "lib/**"
+        "esm/**",
+        "dts/**"
       ]
     },
     "clean": {
