@@ -20,7 +20,7 @@
     "verify": "turbo run verify",
     "version": "changeset version && pnpm install",
     "watch": "jest --watch",
-    "prepare": "husky install",
+    "prepare": "husky",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },
@@ -29,7 +29,7 @@
     "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@just-web/repo-scripts": "^0.2.0",
-    "husky": "^9.0.0",
+    "husky": "^9.1.7",
     "pinst": "^3.0.0",
     "plop": "^4.0.0",
     "turbo": "2.9.14",
