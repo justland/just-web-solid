@@ -25,3 +25,6 @@ allowBuilds:
 # should carry its reason and the date it becomes removable.
 minimumReleaseAge: 1440 # 1 day
 minimumReleaseAgeStrict: true
+minimumReleaseAgeExclude:
+  # Renovate security update: solid-js@1.9.4
+  - solid-js@1.9.4
