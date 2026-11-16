@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>unional/renovate-preset", ":semanticCommits"],
+  "extends": ["github>repobuddy/renovate-preset", ":semanticCommits"],
   "minimumReleaseAge": "3 days",
   "platformAutomerge": true,
   "rebaseWhen": "behind-base-branch",
@@ -12,11 +12,6 @@
     {
       "matchDepTypes": ["devDependencies"],
       "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "automerge": false,
-      "additionalBranchPrefix": "major-"
     }
   ],
   "vulnerabilityAlerts": {
